@@ -2,20 +2,30 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wooden Jewelry</title>
+  <meta name="description" content="テキストテキストテキストテキスト">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="top">
-    <div class="mainvisual">
-      <img src="https://placehold.jp/2000x1000.png?text=mainvisual" alt="mainvisual">
-    </div>
-    <header id="header">
-      <h1 class="site-title">
-        <a href="index.html">Wooden Jewelry</a>
-      </h1>
-      <nav>
+  <!-- メインビジュアル -->
+  <div id="mainvisual">
+    <img src="https://placehold.jp/1920x900.png?text=mainvisual" alt>
+  </div>
+
+  <!-- ヘッダー -->
+  <header id="header">
+    <h1 class="site-title">
+      <a href="index.html">
+        <img src="https://placehold.jp/100px/fff/000/1000x140.png?text=Wooden Jewelry" alt=" Wooden Jewelry">
+      </a>
+    </h1>
+    <nav>
+      <ul>
         <li>
           <a href="#concept">Concept</a>
         </li>
@@ -23,44 +33,45 @@
           <a href="#work">Work</a>
         </li>
         <li>
-          <a href="mailto:xxxxx@xxx.xxx.com">Contact</a>
+          <a href="mailto:xxxxx@xxx.xxx.com?subject=お問合せ">Contact</a>
         </li>
-      </nav>
-    </header>
-  </div>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="wrapper">
+  <!-- メイン -->
+  <div class="container">
     <main>
       <section id="concept" class="content">
-        <div class="section-img">
-          <img src="https://placehold.jp/1000x1000.png?text=section-img" alt="テキストテキストテキストテキスト">
+        <div class="img">
+          <img src="https://placehold.jp/1000x1000.png?text=section-img" alt>
         </div>
-        <div class="content-text">
-          <div class="section-text">
-            <h2 class="section-title">私たちの考えるジュエリーとは</h2>
-            <h3 class="title-summary">Concept</h3>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
+        <div class="text">
+          <h2 class="section-title">私たちの考えるジュエリーとは</h2>
+          <span class="section-title-en">Concept</span>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
       </section>
+
       <section id="work" class="content">
-        <div class="section-img">
-          <img src="https://placehold.jp/1000x1000.png?text=section-img" alt="テキストテキストテキストテキスト">
+        <div class="text">
+          <h2 class="section-title">ハンドメイドにこだわる理由</h2>
+          <span class="section-title-en">Work</span>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
-        <div class="content-text">
-          <div class="section-text">
-            <h2 class="section-title">ハンドメイドにこだわる理由</h2>
-            <h3 class="title-summary">Work</h3>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
+        <div class="img">
+          <img src="https://placehold.jp/1000x1000.png?text=section-img" alt>
         </div>
       </section>
     </main>
 
+    <!-- フッター -->
     <footer id="footer">
-      <div class="site-title">Wooden Jewelry</div>
+      <div class="logo">
+        <img src="https://placehold.jp/100px/fff/000/1000x150.png?text=Wooden Jewelry" alt=" Wooden Jewelry">
+      </div>
       <p>© 2021 Wooden Jewelry</p>
     </footer>
   </div>
